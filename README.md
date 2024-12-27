@@ -1,11 +1,9 @@
 # Traffic Flow Prediction
 
-This repository contains Python scripts for predicting traffic flow based on historical data. The primary functionality includes reading traffic data, preprocessing it, and applying machine learning models to forecast future traffic patterns.
-
+This repository contains Python scripts and Jupyter notebooks for predicting traffic flow based on historical data. The project includes data visualization, feature engineering, and applying machine learning models (GRU) to forecast future traffic patterns at various junctions.
 ## Contents
 
-- `predict_traffic_flow.py`: Code for training and testing a model to predict traffic flow.
-- `read_traffic_flow.py`: Code for loading and preprocessing traffic data.
+TrafficFlowPrediction.ipynb: The main notebook containing end-to-end implementation of the traffic flow prediction, including data preprocessing, exploratory data analysis (EDA), and model training.
 
 ## Requirements
 
@@ -14,6 +12,10 @@ This repository contains Python scripts for predicting traffic flow based on his
 
   ```bash
   pip install -r requirements.txt
+
+## Results
+ -Comparative plots of predicted vs. actual traffic.
+ -RMSE values to assess the model's accuracy.
 
 ## Authors
 - Saket Kumar
