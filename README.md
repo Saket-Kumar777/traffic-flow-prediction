@@ -1,21 +1,24 @@
-# Traffic Flow Prediction
+# Traffic Prediction Using XGBoost
 
-This repository contains Python scripts and Jupyter notebooks for predicting traffic flow based on historical data. The project includes data visualization, feature engineering, and applying machine learning models (GRU) to forecast future traffic patterns at various junctions.
+This repository contains Python scripts for traffic prediction using feature engineering, time series transformations, and the XGBoost machine learning model. The project includes visualizations, data preprocessing, and model evaluation for predicting traffic flow at multiple junctions.
+
 ## Contents
 
-TrafficFlowPrediction.ipynb: The main notebook containing end-to-end implementation of the traffic flow prediction, including data preprocessing, exploratory data analysis (EDA), and model training.
+- **TrafficPredictionXGBoost.py**: The script implements data loading, preprocessing, exploratory data analysis (EDA), feature engineering, time series transformations, model training, and evaluation for traffic prediction.
 
 ## Requirements
 
 - Python 3.7+
-- Required Python packages (can be installed via `requirements.txt` if provided):
-
+- Required Python packages (can be installed via `requirements.txt`):
   ```bash
   pip install -r requirements.txt
+  ```
 
 ## Results
- -Comparative plots of predicted vs. actual traffic.
- -RMSE values to assess the model's accuracy.
+- **Performance Metrics**:
+  - RMSE values for predictions across four junctions.
+- **Visualizations**:
+  - Time series plots showing the alignment between predicted and actual values.
 
 ## Authors
 - Saket Kumar
